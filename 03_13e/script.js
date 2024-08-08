@@ -15,7 +15,9 @@ const everydayPack = new Backpack(
   false,
   "December 5, 2018 15:00:00 PST"
 );
+everydayPack.toggleLid(true);
 
 console.log("The everydayPack object:", everydayPack);
 console.log("The pocketNum value:", everydayPack.pocketNum);
+console.log("Changing Lid Status:", everydayPack.lidOpen);
 console.log("Days since aquired:", everydayPack.backpackAge());
